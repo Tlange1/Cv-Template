@@ -378,4 +378,30 @@ body {
     .section {
         margin-bottom: 35px;
     }
+
+    
+
+
+.weather-list {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    gap: 12px 20px;
+
+    background: #f8fbff;
+    border-left: 4px solid #3498db;
+
+    padding: 20px;
+    border-radius: 8px;
 }
+
+.weather-list dt {
+    font-weight: 700;
+    color: #2c3e50;
+}
+
+.weather-list dd {
+    margin: 0;
+    color: #555;
+}
+}
+
